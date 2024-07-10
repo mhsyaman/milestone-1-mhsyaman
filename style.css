@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Thunderbold";
+  src: url(assets/fonts/Thunderbold.otf);
+}
+
+@font-face {
+  font-family: "ProracingOutline";
+  src: url(assets/fonts/ProRacingSlantOutline.otf);
+}
+
+@font-face {
+  font-family: "Proracing";
+  src: url(assets/fonts/ProRacingSlant.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* header */
+header {
+  padding: 25px 10px;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 100;
+}
+
+.brand-tile {
+  font-weight: 500;
+}
+
+.brand-title h1 {
+  font-family: "Proracing", sans-serif;
+  font-size: 32px;
+  color: aliceblue;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-menu .menu-item {
+  margin-right: 20px; /* Menambahkan margin kanan antar menu item */
+  color: aliceblue;
+  font-size: 20px;
+  padding: 0px 10px;
+  text-decoration: none;
+  /* transition: text-decoration 4s 5s; */
+}
+
+.navbar-menu .menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: underline;
+  transition: text-decoration 4s ease-in 2s;
+  /* text-underline-offset: 0.5em; */
+}
+
+/* main-content*/
+
+.main-content {
+  margin: -80px -5px 0 -5px;
+  /* padding: 1vh; */
+  pointer-events: none;
+  background: cover;
+}
+
+/* about */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-decoration: underline; */
+  margin: 2em 5em;
+}
+
+.about h2 {
+  font-size: 28px;
+}
+
+.about p {
+  font-size: 18px;
+  padding: 1em 0;
+}
+
+/* partners */
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.logo-partner {
+  overflow: hidden;
+  padding: 60px 0;
+  background-color: white;
+  white-space: nowrap;
+  margin: 40px 0;
+  position: relative;
+}
+
+.logo-partner:before,
+.logo-partner:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logo-partner:before {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0)), white;
+  left: 0;
+}
+
+.logo-partner:after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0)), white;
+  right: 0;
+}
+
+.logo-partner:hover .logo-partner-slide {
+  animation-play-state: paused;
+}
+
+.logo-partner-slide {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+
+.logo-partner-slide img {
+  height: 80px;
+  margin: 0 40px;
+}
+
+/* gallery */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+  margin: 10px 25px;
+}
+
+.gallery-image-item:nth-child(1) {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+.gallery-image-item:nth-child(2) {
+  grid-column: span 7;
+}
