@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adelas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section class="navbar">
+            <div class="brand-title">
+                <h1>Adelas</h1>
+            </div>
+            <div class="navbar-menu">
+                <a href="#about" class="menu-item">About</a>
+                <a href="#partners" class="menu-item">Partner</a>
+                <a href="#gallery" class="menu-item">Gallery</a>
+            </div>
+        </section>
+        <hr style="border-top: 1px solid #ffffff;">
+    </header>
+
+    <main>
+        <section id="main-content" class="main-content">
+            <div class="main-background">
+                <div class="main-car" style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe
+                        src="https://giphy.com/embed/MgQDiH1UjsW25PFiyb" width="100%" height="100%"
+                        style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are a company that has been selling sports cars for 12 years. We sell many famous brands. We have also
+                sold many cars to the continent of America and Asia. We also provide the best service for customers who
+                have purchased our products.</p>
+        </section>
+
+        <section id="partners" class="partners">
+            <h2>Our Partners</h2>
+            <div class="logo-partner">
+                <div class="logo-partner-slide">
+                    <img src="assets/partners/porsche.svg" alt="">
+                    <img src="assets/partners/bmw.svg" alt="">
+                    <img src="assets/partners/ferrari.svg" alt="">
+                    <img src="assets/partners/bugatti.svg" alt="">
+                    <img src="assets/partners/audi.svg" alt="">
+                    <img src="assets/partners/lamborghini.svg" alt="">
+                    <img src="assets/partners/acura.svg" alt="">
+                    <img src="assets/partners/alfa-romeo.svg" alt="">
+                    <img src="assets/partners/alpine.svg" alt="">
+                    <img src="assets/partners/aston-martin.svg" alt="">
+                    <img src="assets/partners/ford.svg" alt="">
+                    <img src="assets/partners/jaguar.svg" alt="">
+                    <img src="assets/partners/lotus.svg" alt="">
+                    <img src="assets/partners/maserati.svg" alt="">
+                    <img src="assets/partners/mclaren.svg" alt="">
+                    <img src="assets/partners/mazda.svg" alt="">
+                    <img src="assets/partners/mercedes-amg.svg" alt="">
+                    <img src="assets/partners/mercedes-benz.svg" alt="">
+                    <img src="assets/partners/hyundai.svg" alt="">
+                    <img src="assets/partners/nissan.svg" alt="">
+                    <img src="assets/partners/toyota.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Our Gallery</h2>
+            <div class="gallery-image">
+                <div class="gallery-image-item"><img src="assets/products/product-1.webp" alt=""></div>
+                <div class="gallery-image-item"><img src="assets/products/product-2.webp" alt=""></div>
+                <div class="gallery-image-item"></div>
+                <div class="gallery-image-item"></div>
+                <div class="gallery-image-item"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        var copy = document.querySelector(".logo-partner-slide").cloneNode(true);
+        document.querySelector(".logo-partner").appendChild(copy);
+    </script>
+</body>
+
+</html>
