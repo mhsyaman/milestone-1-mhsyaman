@@ -106,7 +106,7 @@ header {
   align-items: center;
   flex-direction: column;
   margin: 20px 0px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .partners h2 {
@@ -139,11 +139,9 @@ header {
 }
 
 .logo-wrap .logo-partner-slide {
-  /* display: inline-block; */
   display: flex;
-  /* padding-left: 10px; */
-  width: calc(250px * 8);
-  animation: 10s slide infinite linear;
+  width: calc(250px * 42); /* Adjusted for duplication */
+  animation: slide 20s infinite linear;
 }
 
 .logo-wrap .logo-item {
@@ -168,7 +166,9 @@ header {
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-250px * 5));
+    transform: translateX(
+      -50%
+    ); /* Moves the slide to the left by half its full width */
   }
 }
 
@@ -287,15 +287,8 @@ footer {
 }
 
 /* rensponsive */
-
-@media (max-width: 1024px) {
-  .gallery-image-item img {
-    width: 90%;
-  }
-}
-
 /* tablet */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .brand-title h1 {
     font-size: 28px;
   }
@@ -317,8 +310,8 @@ footer {
     font-size: 26px;
   }
 
-  .gallery-image {
-    flex-direction: column;
+  .gallery {
+    width: 800px;
   }
 
   .logo-partner-slide img {
@@ -327,7 +320,7 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   /* smartphone */
   .brand-title h1 {
     font-size: 24px;
@@ -352,14 +345,5 @@ footer {
   .logo-partner-slide img {
     height: 34px;
     margin: 0 30px;
-  }
-
-  .gallery-image-item {
-    display: flex;
-    justify-content: center;
-  }
-
-  .gallery-image-item img {
-    width: 80%;
   }
 }
