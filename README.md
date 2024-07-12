@@ -181,4 +181,4 @@ This is step by step how to DNS management between Netlify and Niagahoster :
 
 11. DNS nameservers have been successful ([Adelas Shop](http://adelas.shop/))
 
-    ![Screenshot 2024-07-05 114001](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/78aad067-b345-4c5a-83e3-4aa5a04d5a8d)
+    !![Screenshot 2024-07-12 163312](https://github.com/user-attachments/assets/c0bb7be3-2894-4154-bc5b-9f2c04f91928)
