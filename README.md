@@ -17,7 +17,7 @@
 
 ### HTML Documentation for Adelas
 
-Here is the HTML structure used to build the Adelas is Sport Cars Store websites. This site provides information about products, as well as a contact form for visitors.
+Here is the HTML structure used to build the Adelas Sports Cars Store websites. This site provides information about products, as well as a contact form for visitors.
 
 #### Page Structure
 
@@ -48,7 +48,7 @@ HTML5 is used for the basic structure.
 
 #### Overview
 
-This site is designed to provide easily accessible information about the products and services of the Sport Cars Store, as well as facilitate communication between visitors and the store owner through the contact form.
+This site is designed to provide easily accessible information about the products and services of the Sports Cars Store, as well as facilitate communication between visitors and the store owner through the contact form.
 
 ---
 
@@ -68,7 +68,7 @@ This is step by step how to deployment process to Netlify :
    
    ![Screenshot 2024-07-12 143723](https://github.com/user-attachments/assets/db357cfc-af73-4c4a-8251-8b823315eb3f)
 
-   ![Screenshot 2024-07-04 204030](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/6f1d41a6-0c63-4022-829d-12c92befc1cf)
+   ![Screenshot 2024-07-12 143930](https://github.com/user-attachments/assets/e723a7d1-ec2c-410e-9bdc-598d191a1ff7)
 
 4. Click "Add another organization" to get repository access from GitHub
 
@@ -78,24 +78,24 @@ This is step by step how to deployment process to Netlify :
 
 5. Select your project to deploy
 
-   ![Screenshot 2024-07-04 210000](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/2817627a-db55-4bcb-a720-e088ff3fcc4b)
+   ![Screenshot 2024-07-12 144104](https://github.com/user-attachments/assets/f79cc0f5-4586-443c-9748-251bd87e6e1e)
 
 6. Configure site and deploy
 
-   ![Screenshot 2024-07-04 210534](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/999b5638-d2f9-4f55-8727-85986b69b294)
+   ![Screenshot 2024-07-12 144415](https://github.com/user-attachments/assets/5922174d-5b36-44d9-bd09-da7c892c1f9a)
 
 7. Deploy your project
 
-   ![Screenshot 2024-07-04 211830](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/f21b1b6c-7311-40af-bbb8-0aa35e5ec6aa)
+   ![Screenshot 2024-07-12 144507](https://github.com/user-attachments/assets/4f7f014a-3acc-4f79-ab26-0b46c5083580)
 
 8. Waiting for the deployment process to complete
 
-   ![Screenshot 2024-07-04 212002](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/567d99d7-b981-4fef-8ccc-2e94e44aab02)
+   ![Screenshot 2024-07-12 144701](https://github.com/user-attachments/assets/e5b81074-79a7-4c5c-a86f-6a8f4518a789)
 
-   ![Screenshot 2024-07-04 212209](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/4f5e4718-8350-4b80-9ce3-57642db16c19)
+   ![Screenshot 2024-07-12 144717](https://github.com/user-attachments/assets/5fc8687a-b800-4448-be5a-8ac846f3ab88)
 
-9. Deployment has been successful ([Adelas Store](https://adelasstore.netlify.app/))
+9. Deployment has been successful ([Adelas Sports Cars](https://adelassportcars.netlify.app/))
 
-   ![Screenshot 2024-07-04 212847](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/5911f78b-34f9-4845-b9d7-2a40749174c2)
+   ![Screenshot 2024-07-12 144812](https://github.com/user-attachments/assets/d260ede7-7982-4ea4-8eb6-d852e1145541)
 
 ---
