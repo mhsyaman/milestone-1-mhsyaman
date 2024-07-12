@@ -2,7 +2,7 @@
 
 ![HI!](https://readme-typing-svg.demolab.com?font=Fira+Code&size=80&pause=1000&color=08D750&vCenter=true&random=false&width=700&height=80&lines=Hi+I'm+Syaman!)
 
-![syaman](assets/profile.jpg)
+![syaman](https://pps.whatsapp.net/v/t61.24694-24/407913903_1745747519182962_1566087942243172530_n.jpg?ccb=11-4&oh=01_Q5AaILYmBWUJiHmkSEKfwoEngGjgM66g4ZIE_3PQN97bnGss&oe=669DD04C&_nc_sid=e6ed6c&_nc_cat=102)
 
 | Platform                                                                                                       | Username                                                        |
 | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
