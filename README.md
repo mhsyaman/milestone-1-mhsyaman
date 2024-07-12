@@ -36,8 +36,8 @@ Here is the HTML structure used to build the Adelas is Sport Cars Store websites
 
 - **Navigation (`<nav>`)**: Facilitates user movement between different sections of the site.
 - **About (`<section id="about">`)**: Explain about us how our company is in sports cars agent
-- **Partners `<section id="partners">`**: Showcasing our partners who have worked with us.
-- **Gallery `<section id="gallery">`**: Show some examples of sports cars into the gallery
+- **Partners (`<section id="partners">`)**: Showcasing our partners who have worked with us.
+- **Gallery (`<section id="gallery">`)**: Show some examples of sports cars into the gallery
 - **Contact Form (`<form>`)**: Collects information from visitors for communication or marketing purposes.
   - **Gender Input**: Radio buttons to select gender.
   - **Product Preferences**: Checkboxes to select preferred product types.
