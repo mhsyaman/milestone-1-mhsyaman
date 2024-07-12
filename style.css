@@ -106,7 +106,7 @@ header {
   align-items: center;
   flex-direction: column;
   margin: 20px 0px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .partners h2 {
@@ -287,8 +287,15 @@ footer {
 }
 
 /* rensponsive */
+
+@media (max-width: 1024px) {
+  .gallery-image-item img {
+    width: 90%;
+  }
+}
+
 /* tablet */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .brand-title h1 {
     font-size: 28px;
   }
@@ -310,8 +317,8 @@ footer {
     font-size: 26px;
   }
 
-  .gallery {
-    width: 800px;
+  .gallery-image {
+    flex-direction: column;
   }
 
   .logo-partner-slide img {
@@ -320,7 +327,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   /* smartphone */
   .brand-title h1 {
     font-size: 24px;
@@ -345,5 +352,14 @@ footer {
   .logo-partner-slide img {
     height: 34px;
     margin: 0 30px;
+  }
+
+  .gallery-image-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .gallery-image-item img {
+    width: 80%;
   }
 }
