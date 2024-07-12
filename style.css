@@ -106,6 +106,7 @@ header {
   align-items: center;
   flex-direction: column;
   margin: 20px 0px;
+  overflow: hidden;
 }
 
 .partners h2 {
@@ -197,6 +198,11 @@ header {
   align-items: center;
 }
 
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .gallery h2 {
   font-size: 28px;
   margin-bottom: 40px;
@@ -210,16 +216,19 @@ header {
   /* align-items: center; */
   width: auto;
   margin: 0 50px;
+  gap: 30px;
 }
 
 .gallery-image-item {
   width: 100%;
+  /* display: flex; */
   /* height: auto; */
 }
 
 .gallery-image-item img {
-  /* width: 450px; */
+  width: 450px;
   height: auto;
+  object-fit: cover;
 }
 
 /* subscribe button */
@@ -227,13 +236,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px 0;
 }
+
 .subscribe-button {
   background-color: #f44336;
   font-weight: 800;
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
-  margin-top: 60px;
   animation: shake 0.5s infinite;
   padding: 0 20px;
   color: #f2f2f2;
