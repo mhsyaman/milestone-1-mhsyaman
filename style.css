@@ -74,7 +74,7 @@ header {
 /* main-content*/
 
 .main-content {
-  margin: -80px -5px 0 -5px;
+  margin: -80px -5px 0 -5px; /* ----- */
   /* padding: 1vh; */
   pointer-events: none;
   background: cover;
@@ -106,6 +106,10 @@ header {
   align-items: center;
   flex-direction: column;
   margin: 20px 0px;
+}
+
+.partners h2 {
+  font-size: 28px;
 }
 
 @keyframes slide {
@@ -167,18 +171,130 @@ header {
   align-items: center;
 }
 
-.gallery-image {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  gap: 10px;
-  margin: 10px 25px;
+.gallery h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
 }
 
-.gallery-image-item:nth-child(1) {
-  grid-column: span 3;
-  grid-row: span 2;
+.gallery-image {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 1fr 1fr; /* Menjadikan 2 kolom dengan lebar yang sama */
+  justify-content: space-between;
+  align-items: center;
 }
-.gallery-image-item:nth-child(2) {
-  grid-column: span 7;
+
+.gallery-image-item {
+  width: 100%;
+  height: auto;
+}
+
+/* subscribe button */
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-button {
+  background-color: #f44336;
+  font-weight: 800;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 60px;
+  animation: shake 0.5s infinite;
+  padding: 0 20px;
+  color: #f2f2f2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.subscribe-button:hover {
+  background-color: #d64136;
+}
+
+/* footer */
+footer {
+  background-color: #333; /* Warna latar belakang gelap */
+  color: white; /* Warna teks putih */
+  padding: 20px 10px; /* Padding atas-bawah dan kiri-kanan */
+  text-align: center; /* Teks rata tengah */
+  position: relative; /* Posisi relatif */
+  bottom: 100%; /* Letakkan di bawah halaman */
+  margin-top: 60px;
+}
+
+/* rensponsive */
+/* tablet */
+@media only screen and (max-width: 768px) {
+  .brand-title h1 {
+    font-size: 28px;
+  }
+
+  .about h2 {
+    font-size: 26px;
+  }
+
+  .about p {
+    font-size: 16px;
+    padding: 0.9em 0;
+  }
+
+  .partners h2 {
+    font-size: 26px;
+  }
+
+  .gallery h2 {
+    font-size: 26px;
+  }
+
+  .logo-partner-slide img {
+    height: 40px;
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* smartphone */
+  .brand-title h1 {
+    font-size: 24px;
+  }
+
+  .about h2 {
+    font-size: 24px;
+  }
+
+  .about p {
+    font-size: 14px;
+    padding: 0.8em 0;
+  }
+
+  .partners h2 {
+    font-size: 24px;
+  }
+
+  .gallery h2 {
+    font-size: 24px;
+  }
+  .logo-partner-slide img {
+    height: 34px;
+    margin: 0 30px;
+  }
 }
