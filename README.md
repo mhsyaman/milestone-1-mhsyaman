@@ -51,3 +51,51 @@ HTML5 is used for the basic structure.
 This site is designed to provide easily accessible information about the products and services of the Sport Cars Store, as well as facilitate communication between visitors and the store owner through the contact form.
 
 ---
+
+### Deployment Process
+
+| Deployment process to Netlify
+
+This is step by step how to deployment process to Netlify :
+
+1. Make sure you already have a Netlify account
+   
+2. Click "Add new site" to add a new site
+
+   ![image](https://github.com/user-attachments/assets/1aedf883-e737-4851-a90f-fc9a9455514c)
+
+3. Click "Import an existing project" to import a project from GitHub
+   
+   ![Screenshot 2024-07-12 143723](https://github.com/user-attachments/assets/db357cfc-af73-4c4a-8251-8b823315eb3f)
+
+   ![Screenshot 2024-07-04 204030](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/6f1d41a6-0c63-4022-829d-12c92befc1cf)
+
+4. Click "Add another organization" to get repository access from GitHub
+
+   ![Screenshot 2024-07-04 204358](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/fa1acd35-dbe8-4057-980e-ba72ef532518)
+
+   ![Screenshot 2024-07-04 204843](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/ba03acdc-b118-472a-84ab-0b013a0f080a)
+
+5. Select your project to deploy
+
+   ![Screenshot 2024-07-04 210000](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/2817627a-db55-4bcb-a720-e088ff3fcc4b)
+
+6. Configure site and deploy
+
+   ![Screenshot 2024-07-04 210534](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/999b5638-d2f9-4f55-8727-85986b69b294)
+
+7. Deploy your project
+
+   ![Screenshot 2024-07-04 211830](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/f21b1b6c-7311-40af-bbb8-0aa35e5ec6aa)
+
+8. Waiting for the deployment process to complete
+
+   ![Screenshot 2024-07-04 212002](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/567d99d7-b981-4fef-8ccc-2e94e44aab02)
+
+   ![Screenshot 2024-07-04 212209](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/4f5e4718-8350-4b80-9ce3-57642db16c19)
+
+9. Deployment has been successful ([Adelas Store](https://adelasstore.netlify.app/))
+
+   ![Screenshot 2024-07-04 212847](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/5911f78b-34f9-4845-b9d7-2a40749174c2)
+
+---
