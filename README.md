@@ -92,7 +92,7 @@ This is step by step how to deployment process to Netlify :
 
    ![Screenshot 2024-07-12 144701](https://github.com/user-attachments/assets/e5b81074-79a7-4c5c-a86f-6a8f4518a789)
 
-   ![Screenshot 2024-07-12 144717](https://github.com/user-attachments/assets/5fc8687a-b800-4448-be5a-8ac846f3ab88)
+   ![Screenshot 2024-07-12 155952](https://github.com/user-attachments/assets/9ac0ead1-8d22-416b-af29-98e6b7ec9042)
 
 9. Deployment has been successful ([Adelas Sports Cars](https://adelassportcars.netlify.app/))
 
