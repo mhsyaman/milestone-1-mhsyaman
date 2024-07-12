@@ -112,24 +112,64 @@ header {
   font-size: 28px;
 }
 
+.logo-partner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+  /* padding: 10px 0; */
+  background-color: white;
+  margin: 40px 0;
+  /* position: relative; */
+}
+
+.logo-wrap {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  width: 100%;
+  height: auto;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.logo-wrap .logo-partner-slide {
+  /* display: inline-block; */
+  display: flex;
+  /* padding-left: 10px; */
+  width: calc(250px * 8);
+  animation: 10s slide infinite linear;
+}
+
+.logo-wrap .logo-item {
+  /* display: inline-block; */
+  /* padding: 0 10px; */
+  height: 150px;
+  width: 250px;
+}
+
+.logo-wrap .logo-item img {
+  width: 80%;
+  height: 140px;
+  margin: 0 10px;
+}
+
+/* .logo-partner:hover .logo-partner-slide {
+  animation-play-state: paused;
+} */
+
 @keyframes slide {
   from {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(calc(-250px * 5));
   }
 }
-.logo-partner {
-  overflow: hidden;
-  padding: 60px 0;
-  background-color: white;
-  white-space: nowrap;
-  margin: 40px 0;
-  position: relative;
-}
 
-.logo-partner:before,
+/* .logo-partner:before,
 .logo-partner:after {
   position: absolute;
   top: 0;
@@ -147,21 +187,7 @@ header {
 .logo-partner:after {
   background: linear-gradient(to right, rgba(255, 255, 255, 0)), white;
   right: 0;
-}
-
-.logo-partner:hover .logo-partner-slide {
-  animation-play-state: paused;
-}
-
-.logo-partner-slide {
-  display: inline-block;
-  animation: 25s slide infinite linear;
-}
-
-.logo-partner-slide img {
-  height: 80px;
-  margin: 0 40px;
-}
+} */
 
 /* gallery */
 .gallery {
@@ -178,14 +204,21 @@ header {
 
 .gallery-image {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   /* grid-template-columns: 1fr 1fr; /* Menjadikan 2 kolom dengan lebar yang sama */
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  width: auto;
+  margin: 0 50px;
 }
 
 .gallery-image-item {
   width: 100%;
+  /* height: auto; */
+}
+
+.gallery-image-item img {
+  /* width: 450px; */
   height: auto;
 }
 
