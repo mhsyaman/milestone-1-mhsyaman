@@ -172,26 +172,6 @@ header {
   }
 }
 
-/* .logo-partner:before,
-.logo-partner:after {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
-.logo-partner:before {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0)), white;
-  left: 0;
-}
-
-.logo-partner:after {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0)), white;
-  right: 0;
-} */
-
 /* gallery */
 .gallery {
   display: flex;
