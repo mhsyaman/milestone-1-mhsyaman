@@ -72,21 +72,21 @@ This is step by step how to deployment process to Netlify :
 
 4. Click "Add another organization" to get repository access from GitHub
 
-   ![Screenshot 2024-07-04 204358](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/fa1acd35-dbe8-4057-980e-ba72ef532518)
-
-   ![Screenshot 2024-07-04 204843](https://github.com/revou-fsse-5/module-1-mhsyaman/assets/98678219/ba03acdc-b118-472a-84ab-0b013a0f080a)
-
-5. Select your project to deploy
-
    ![Screenshot 2024-07-12 144104](https://github.com/user-attachments/assets/f79cc0f5-4586-443c-9748-251bd87e6e1e)
-
-6. Configure site and deploy
 
    ![Screenshot 2024-07-12 144415](https://github.com/user-attachments/assets/5922174d-5b36-44d9-bd09-da7c892c1f9a)
 
-7. Deploy your project
+5. Select your project to deploy
 
    ![Screenshot 2024-07-12 144507](https://github.com/user-attachments/assets/4f7f014a-3acc-4f79-ab26-0b46c5083580)
+
+6. Configure site and deploy
+
+   ![Screenshot 2024-07-12 144614](https://github.com/user-attachments/assets/f28d8538-852c-4aec-acd2-55a35168db0e)
+
+7. Deploy your project
+
+   ![Screenshot 2024-07-12 144634](https://github.com/user-attachments/assets/88aea82d-efc0-4bd7-91e7-723f1fb87e8b)
 
 8. Waiting for the deployment process to complete
 
