@@ -17,7 +17,7 @@
 
 ### HTML Documentation for Adelas
 
-Here is the HTML structure used to build the Adelas is Shoe Store websites. This site provides information about products and promotions, as well as a contact form for visitors.
+Here is the HTML structure used to build the Adelas is Sport Cars Store websites. This site provides information about products, as well as a contact form for visitors.
 
 #### Page Structure
 
@@ -48,6 +48,6 @@ HTML5 is used for the basic structure.
 
 #### Overview
 
-This site is designed to provide easily accessible information about the products and services of the Shoe Store, as well as facilitate communication between visitors and the store owner through the contact form.
+This site is designed to provide easily accessible information about the products and services of the Sport Cars Store, as well as facilitate communication between visitors and the store owner through the contact form.
 
 ---
